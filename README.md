@@ -3,7 +3,7 @@
 ##### `PyCharm` 으로 진행 
 
 * 프로젝트 생성
-    * 프로젝트 진행할 폴더 생성 후,
+    * 프로젝트 진행할 폴더 생성 후,<br>
     <img width="522" alt="스크린샷 2020-10-10 오후 9 47 20" src="https://user-images.githubusercontent.com/53853730/95655468-6c70a200-0b42-11eb-9612-b050c3b09833.png"> <br>
         * (= django-admin startproject djangoProject)
     * 프로젝트는 다수의 app을 가질 수 있음. // 앱 생성
