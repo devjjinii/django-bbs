@@ -28,7 +28,7 @@ with open(secret_file) as f:
 
 def get_secret(setting, secrets=secrets):
     try:
-        print("check : ", secrets[setting])
+        # print("check : ", secrets[setting])
         return secrets[setting]
     except KeyError:
         error_msg = "Set the {} environment variable".format(setting)

@@ -20,6 +20,10 @@
     * settings.py > INSTALLED_APPS > bbs(생성한 app) 추가 
     * setting.py > SECRET_KEY 는 분리해서 push 해야함.
         * 참고사이트 : https://inma.tistory.com/83
+---
+* bbs > models.py 
+    * ./manage.py makemigrations bbs
+    * ./manage.py migrate >> db.sqlite3 에 db 생성
 --- 
 ##### `설정`
 * settings.py : 프로젝트 환경 설정 파일
