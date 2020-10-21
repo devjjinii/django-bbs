@@ -20,5 +20,6 @@ from bbs.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^write/', write, name='write')
+    path('write/', write, name='write')
+    # url(r'^write/', write, name='write')
 ]

@@ -12,6 +12,7 @@
             {{ form.as_ul }}
         {% endcomment %}
         {{ form.as_p }}
+        {% csrf_token %}
         <button type="submit" class="btn">저장</button>
 </body>
 </html>
